@@ -6,19 +6,23 @@
 
 body {
     background-color: #f3f3f3;
-    font-family: Georgia, Arial, serif;
+    font-family: "europa", arial, sans-serif;
     line-height: 1.3;
 }
 
 
 #wrapper {
-    width: 900px;
+    width: 1050px;
     margin: 0 auto;
     padding: 30px;
     background-color: #FFF;
     min-height: 100vh;
 }
 
+
+/*
+Logo and top navigation
+*/
 
 #name {
     width: 260px;
@@ -83,6 +87,10 @@ body {
 }
 
 
+/*
+Home Page starts here
+*/
+
 #homecontent1 {
     clear: both;
     margin: 200px 0 0 0px;
@@ -90,11 +98,10 @@ body {
 }
 
 
-#homecontent1 h1{
+#homecontent1 h1 {
     text-align: center;
     padding-bottom: 30px;
 }
-
 
 
 #homecontent1 p {
@@ -108,173 +115,131 @@ body {
 }
 
 
-#slideshow {
-    clear: both;
-    margin: 0px auto;
-    position: relative;
-}
-
-
-#slideshow > div {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-}
-
-
-#content2 {
-    width: 350px;
-    height: 100px;
-    float: left;
-    border: 2px solid #8c2332;
-    padding: 20px;
-    margin: 0 0 50px 0;
-}
-
-
-#content2 a {
-    text-align: right;
-}
-
-
-#content3 {
-    width: 350px;
-    height: 100px;
-    float: right;
-    border: 2px solid #8c2332;
-    padding: 20px;
-    margin: 0 0 50px 0;
-}
-
-
-#loopgame {
-    clear: both;
-    margin: 100px 0 100px 0;
-}
-
-
-#loopgame p::first-letter {
-    font-size: 200%;
-    color: #8C2332;
-}
-
-
-#loopgame p {
-    text-indent: 20px;
-}
-
-
-#demo {
-    color: #fff;
-    background-color: #2090ac;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 8px 8px;
-    font-size: 16px;
-}
-
-
-#tuitioncalc {
-    float: right;
-    width: 350px;
-    height: 205px;
-
-
-    position: relative;
-    text-align: center;
-    color: #0ab3e3;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-
-#tuitioncalc {
-    float: right;
-    width: 350px;
-    height: 205px;
-
-
-    position: relative;
-    text-align: center;
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-
-#campustour {
-    clear: both;
-    margin-top: 120px;
-}
-
-
-#campustour p::first-letter {
-    font-size: 200%;
-    color: #8C2332;
-}
-
-
-#youtube {
-    float: left;
-}
-
-
-#youtubemessage {
-    float: right;
-    width: 320px;
-    margin-bottom: 100px;
-}
-
-
-
 #book {
     clear: both;
     margin-bottom: 300px;
 }
 
 
-
-#ourcampus {
+#homegallery {
     clear: both;
-}
-
-
-#footer {
-    clear: both;
-    height: 60px;
-    margin: 60px 0 0 0px;
-    background-color: #02213C;
-    padding: 30px 180px;
-}
-
-
-#footer h2 {
-    float: left;
-    color: #fff;
-    padding: 10px 0px 0 0;
-}
-
-
-#footer i {
-    float: left;
-    color: #fff;
-    margin-left: 70px;
-    padding: 00px 0px 0 0;
-}
-
-
-#footer p {
-    color: #fff;
-    text-align: center;
 }
 
 
 /*
-Services Page starts here
+Blog page starts here
 */
+
+#aboutuscontent1 {
+    clear: both;
+    margin-top: 50px;
+}
+
+#blogrow1 {
+    clear: both;
+    width: 1030px;
+    height: 400px;
+    border: solid black 2px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+#blogrow1 h1 {
+
+    margin-bottom: 30px;
+}
+
+
+#blogcard1{
+ float: left;
+    width: 300px;
+    height: 400px;
+    border: solid black 2px;
+    padding: 0 10px 0 0px;
+}
+
+
+#blogcard2{
+    float: left;
+    width: 300px;
+    height: 400px;
+    border: solid black 2px;
+
+}
+
+
+#blogcard3{
+    float: left;
+    width: 300px;
+    height: 400px;
+    border: solid black 2px;
+}
+
+
+
+
+
+
+#blogrow2 {
+    clear: both;
+    width: 1030px;
+    height: 400px;
+    border: solid black 2px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+#blogrow3 {
+    clear: both;
+    width: 1030px;
+    height: 400px;
+    border: solid black 2px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+#blogrow4 {
+    clear: both;
+    width: 1030px;
+    height: 400px;
+    border: solid black 2px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+#blogrow5 {
+    clear: both;
+    width: 1030px;
+    height: 400px;
+    border: solid black 2px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+#blogrow6 {
+    clear: both;
+    width: 1030px;
+    height: 400px;
+    border: solid black 2px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/*
+   Services Page starts here
+    */
+
 #loginslideshow {
+
     clear: both;
     margin: 0px auto;
     position: relative;
@@ -507,36 +472,37 @@ Register Page starts here
 
 
 /*
-About Us Page starts here
+Footer starts here
 */
 
-#aboutuscontent1 {
+#footer {
     clear: both;
-    margin-top: 50px;
-
+    height: 60px;
+    margin: 60px 0 0 0px;
+    background-color: #02213C;
+    padding: 30px 180px;
 }
 
-#aboutuscontent2 {
-    margin-top: 100px;
 
+#footer h2 {
+    float: left;
+    color: #fff;
+    padding: 10px 0px 0 0;
 }
 
-#aboutuscontent2 h2 {
+
+#footer i {
+    float: left;
+    color: #fff;
+    margin-left: 70px;
+    padding: 00px 0px 0 0;
+}
+
+
+#footer p {
+    color: #fff;
     text-align: center;
-
 }
-
-
-#aboutuscontent2 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
- 
-
-		
-		
 		
 
 	
