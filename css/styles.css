@@ -118,13 +118,12 @@ Home Page starts here
 
 #book {
     float: left;
-    width: 650px;
+    width: 620px;
     margin-bottom: 300px;
 }
 
 
 #book button {
-
     font-family: Neutraface Display, Arial, sans-serif;
     font-size: .75rem;
     line-height: 1;
@@ -137,6 +136,17 @@ Home Page starts here
     padding: .800rem;
     text-align: center;
 }
+
+
+#youtube {
+    float: right;
+    width: 410px;
+    height: 300px;
+    border: solid red 1px;
+}
+
+
+
 
 
 #homegallery {
