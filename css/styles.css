@@ -8,11 +8,12 @@ body {
     background-color: #f3f3f3;
     font-family: "europa", arial, sans-serif;
     line-height: 1.3;
+
 }
 
 
 #wrapper {
-    width: 1050px;
+    max-width: 1050px;
     margin: 0 auto;
     padding: 30px;
     background-color: #FFF;
@@ -116,8 +117,25 @@ Home Page starts here
 
 
 #book {
-    clear: both;
+    float: left;
+    width: 650px;
     margin-bottom: 300px;
+}
+
+
+#book button {
+
+    font-family: Neutraface Display, Arial, sans-serif;
+    font-size: .75rem;
+    line-height: 1;
+    background: #000;
+    border: 0;
+    color: #fff;
+    line-height: 1.3;
+    text-transform: uppercase;
+    letter-spacing: .09rem;
+    padding: .800rem;
+    text-align: center;
 }
 
 
@@ -139,9 +157,9 @@ Blog page starts here
     clear: both;
     width: 1030px;
     height: 400px;
-    border: solid black 2px;
     margin: auto;
     margin-bottom: 50px;
+
 }
 
 
@@ -151,43 +169,78 @@ Blog page starts here
 }
 
 
-#blogcard1{
- float: left;
-    width: 300px;
-    height: 400px;
-    border: solid black 2px;
-    padding: 0 10px 0 0px;
-}
-
-
-#blogcard2{
+#blogcard1 {
     float: left;
-    width: 300px;
+    width: 320px;
     height: 400px;
-    border: solid black 2px;
+    border: solid #cccccc 1px;
+    margin-right: 20px;
+}
+
+#blogcard1 h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 19px;
 
 }
 
 
-#blogcard3{
+#blogcard1 p {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #737373;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+#blogcard2 {
     float: left;
-    width: 300px;
+    width: 320px;
     height: 400px;
-    border: solid black 2px;
+    border: solid #cccccc 1px;
+    margin-left: 9.5px;
 }
 
 
-
-
+#blogcard3 {
+    float: right;
+    width: 320px;
+    height: 400px;
+    border: solid #cccccc 1px;
+}
 
 
 #blogrow2 {
     clear: both;
     width: 1030px;
     height: 400px;
-    border: solid black 2px;
     margin: auto;
     margin-bottom: 50px;
+}
+
+
+#blogcard4 {
+    float: left;
+    width: 320px;
+    height: 400px;
+    border: solid #cccccc 1px;
+    margin-right: 20px;
+}
+
+
+#blogcard5 {
+    float: left;
+    width: 320px;
+    height: 400px;
+    border: solid #cccccc 1px;
+    margin-left: 9.5px;
+}
+
+
+#blogcard6 {
+    float: right;
+    width: 320px;
+    height: 400px;
+    border: solid #cccccc 1px;
 }
 
 
@@ -195,9 +248,34 @@ Blog page starts here
     clear: both;
     width: 1030px;
     height: 400px;
-    border: solid black 2px;
     margin: auto;
     margin-bottom: 50px;
+}
+
+
+#blogcard7 {
+    float: left;
+    width: 320px;
+    height: 400px;
+    border: solid #cccccc 1px;
+    margin-right: 20px;
+}
+
+
+#blogcard8 {
+    float: left;
+    width: 320px;
+    height: 400px;
+    border: solid #cccccc 1px;
+    margin-left: 9.5px;
+}
+
+
+#blogcard9 {
+    float: right;
+    width: 320px;
+    height: 400px;
+    border: solid #cccccc 1px;
 }
 
 
@@ -205,9 +283,34 @@ Blog page starts here
     clear: both;
     width: 1030px;
     height: 400px;
-    border: solid black 2px;
     margin: auto;
     margin-bottom: 50px;
+}
+
+
+#blogcard10 {
+    float: left;
+    width: 320px;
+    height: 400px;
+    border: solid #cccccc 1px;
+    margin-right: 20px;
+}
+
+
+#blogcard11 {
+    float: left;
+    width: 320px;
+    height: 400px;
+    border: solid #cccccc 1px;
+    margin-left: 9.5px;
+}
+
+
+#blogcard12 {
+    float: right;
+    width: 320px;
+    height: 400px;
+    border: solid #cccccc 1px;
 }
 
 
@@ -215,9 +318,33 @@ Blog page starts here
     clear: both;
     width: 1030px;
     height: 400px;
-    border: solid black 2px;
     margin: auto;
     margin-bottom: 50px;
+}
+
+#blogcard13 {
+    float: left;
+    width: 320px;
+    height: 400px;
+    border: solid #cccccc 1px;
+    margin-right: 20px;
+}
+
+
+#blogcard14 {
+    float: left;
+    width: 320px;
+    height: 400px;
+    border: solid #cccccc 1px;
+    margin-left: 9.5px;
+}
+
+
+#blogcard15 {
+    float: right;
+    width: 320px;
+    height: 400px;
+    border: solid #cccccc 1px;
 }
 
 
@@ -225,13 +352,35 @@ Blog page starts here
     clear: both;
     width: 1030px;
     height: 400px;
-    border: solid black 2px;
     margin: auto;
     margin-bottom: 50px;
 }
 
 
+#blogcard16 {
+    float: left;
+    width: 320px;
+    height: 400px;
+    border: solid #cccccc 1px;
+    margin-right: 20px;
+}
 
+
+#blogcard17 {
+    float: left;
+    width: 320px;
+    height: 400px;
+    border: solid #cccccc 1px;
+    margin-left: 9.5px;
+}
+
+
+#blogcard18 {
+    float: right;
+    width: 320px;
+    height: 400px;
+    border: solid #cccccc 1px;
+}
 
 
 /*
