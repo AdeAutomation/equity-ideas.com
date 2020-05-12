@@ -638,8 +638,41 @@ Footer starts here
     height: 60px;
     margin: 60px 0 0 0px;
     background-color: #02213C;
-    padding: 30px 180px;
+    padding: 50px 10px;
 }
+
+
+#followus {
+
+    float: left;
+    height: 50px;
+    width: 150px;
+    margin: 0px 0 0 300px;
+    border: solid white 2px;
+}
+
+
+
+#icons{
+    float: left;
+    height: 50px;
+    width: 300px;
+    margin: 0px 0 0 0px;
+    border: solid white 2px;
+
+}
+
+
+#copyright{
+    clear: both;
+    height: 30px;
+    width: 300px;
+    margin: auto;
+    color: #fff;
+    border: solid white 2px;
+
+}
+
 
 
 #footer h2 {
@@ -649,11 +682,11 @@ Footer starts here
 }
 
 
-#footer i {
+#footer a {
     float: left;
     color: #fff;
-    margin-left: 70px;
-    padding: 00px 0px 0 0;
+    margin-left: 40px;
+    padding: 0px 0px 0px 0px;
 }
 
 
