@@ -648,7 +648,6 @@ Footer starts here
     height: 50px;
     width: 150px;
     margin: 0px 0 0 300px;
-    border: solid white 2px;
 }
 
 
@@ -657,10 +656,9 @@ Footer starts here
     float: left;
     height: 50px;
     width: 300px;
-    margin: 0px 0 0 0px;
-    border: solid white 2px;
-
+    padding-top: 10px;
 }
+
 
 
 #copyright{
@@ -669,14 +667,13 @@ Footer starts here
     width: 300px;
     margin: auto;
     color: #fff;
-    border: solid white 2px;
 
 }
 
 
 
 #footer h2 {
-    float: left;
+    float: right;
     color: #fff;
     padding: 10px 0px 0 0;
 }
@@ -685,8 +682,7 @@ Footer starts here
 #footer a {
     float: left;
     color: #fff;
-    margin-left: 40px;
-    padding: 0px 0px 0px 0px;
+    margin-left: 25px;
 }
 
 
