@@ -629,6 +629,44 @@ Register Page starts here
 }
 
 
+
+
+/*
+   Contact Us age starts here
+    */
+
+
+#contactusbanner {
+    clear: both;
+    height: 329px;
+    margin-bottom: 50px;
+}
+
+
+
+
+#contactuscontent {
+    margin-bottom: 50px;
+}
+
+
+
+#contactuscontent1 {
+    width: 500px;
+    height: 400px;
+    border: solid #0ab3e3 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*
 Footer starts here
 */
