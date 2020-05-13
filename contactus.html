@@ -1,3 +1,11 @@
+<?php
+if($_POST["message"]) {
+    mail("ade@equity-ideas.com", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
@@ -43,7 +51,7 @@
 
 
     <div id="contactform">
-        <form action="stocks.html" id="cform" method="get" onsubmit="return validateForm()">
+        <form action="contactus.html" id="cform" method="post">
             <fieldset>
                 <legend><strong>Your Details:</strong></legend>
                 Title:<br>
