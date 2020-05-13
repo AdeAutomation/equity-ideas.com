@@ -51,7 +51,7 @@ if($_POST["message"]) {
 
 
     <div id="contactform">
-        <form action="contactus.html" id="cform" method="post">
+        <form action="contactus.php" id="cform" method="post">
             <fieldset>
                 <legend><strong>Your Details:</strong></legend>
                 Title:<br>
