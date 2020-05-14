@@ -145,6 +145,18 @@ Home Page starts here
 }
 
 
+#homenewsletter {
+    float: right;
+    width: 410px;
+    height: 300px;
+    margin: 30px 0 0 0px;
+    border: solid red 2px;
+}
+
+
+
+
+
 
 
 
@@ -549,8 +561,6 @@ Register Page starts here
 
 
 
-
-
 /*
    Contact Us age starts here
     */
@@ -595,7 +605,6 @@ Register Page starts here
     width: 40%;
     height: 300px;
 }
-
 
 
 
@@ -672,8 +681,6 @@ Register Page starts here
 #contactform [type=reset]:hover {
     background-color: #f3f3f3;
 }
-
-
 
 
 
