@@ -572,13 +572,22 @@ Register Page starts here
 
 
 #contactuscontent1 {
-    width: 50%;
+    clear: both;
 
 }
 
 
 #contactform {
+    float: left;
     width: 50%;
+}
+
+
+.mailmunch-forms-widget-902328 {
+    float: right;
+    width: 40%;
+    height: 300px;
+    border: solid red 2px;
 }
 
 
@@ -659,14 +668,6 @@ Register Page starts here
 }
 
 
-
-
-.mailmunch-forms-widget-902328 {
-    float: right;
-    width: 40%;
-    height: 300px;
-    border: solid red 2px;
-}
 
 
 
