@@ -15,15 +15,15 @@
     <link rel="icon" type="image/png" href="FaveiconLogo.ico">
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <script>
-        $("#loginslideshow > div:gt(0)").hide();
+        $("#stocksslideshow > div:gt(0)").hide();
 
         setInterval(function () {
-            $('#loginslideshow > div:first')
+            $('#stocksslideshow > div:first')
                 .fadeOut(1000)
                 .next()
                 .fadeIn(1000)
                 .end()
-                .appendTo('#loginslideshow');
+                .appendTo('#stocksslideshow');
         }, 3000);
     </script>
 </head>
@@ -41,7 +41,7 @@
             <li><a href="contactus.html">Contact Us</a></li>
         </ul>
     </div>
-    <div id="loginslideshow">
+    <div id="stocksslideshow">
         <div>
             <img src="images/Grad.jpg" alt="Graduating students throwing their hats up">
         </div>
@@ -52,7 +52,7 @@
             <img src="images/university.jpeg" alt="A white and blue building">
         </div>
     </div>
-    <div id="logincontent">
+    <div id="stockscontent">
         <h1>Our Services</h1>
         <br>
     </div>

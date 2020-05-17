@@ -407,7 +407,7 @@ Blog page starts here
    Services Page starts here
     */
 
-#loginslideshow {
+#stocksslideshow {
 
     clear: both;
     margin: 0px auto;
@@ -415,7 +415,7 @@ Blog page starts here
 }
 
 
-#loginslideshow > div {
+#stocksslideshow > div {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -425,25 +425,15 @@ Blog page starts here
 
 
 
-#logincontent {
+#stockscontent {
     clear: both;
 }
 
 
-#logincontent h1 {
+#stockscontent h1 {
     font-size: 40px;
     margin-top: 350px;
 }
-
-
-#loginform {
-    width: 450px;
-    float: left;
-}
-
-
-
-
 
 
 
