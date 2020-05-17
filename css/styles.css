@@ -442,58 +442,6 @@ Blog page starts here
 }
 
 
-#tuitionimage {
-    float: right;
-    width: 350px;
-    height: 205px;
-
-
-    position: relative;
-    text-align: center;
-    color: #0ab3e3;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-
-
-#loginform input[type=email], [type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-
-#loginform input[type=submit], [type=reset] {
-    width: 30%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    background-color: #ccc;
-}
-
-
-#loginreset {
-    float: left;
-    width: 450px;
-    margin-bottom: 100px;
-}
-
-
-#submit {
-    float: left;
-}
 
 
 
