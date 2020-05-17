@@ -686,8 +686,8 @@ Stocks starts here
 }
 
 
-#table tr:hover {
-    background-color: #f2f2f2;
+#table tr:not(:first-child):hover {
+    background-color:#ccc;
     color: black;
 }
 
