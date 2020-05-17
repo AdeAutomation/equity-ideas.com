@@ -424,6 +424,12 @@ Blog page starts here
 }
 
 
+
+#logincontent {
+    clear: both;
+}
+
+
 #logincontent h1 {
     font-size: 40px;
     margin-top: 350px;
@@ -490,54 +496,11 @@ Blog page starts here
 }
 
 
-#reset {
-    float: right;
-}
 
 
-#logincontent {
-    clear: both;
-}
 
 
-#logincontent p.success {
-    padding: 12px;
-    background-color: #e6efc2;
-    border-left: 5px solid #529214;
-}
 
-
-#logincontent p.error {
-    padding: 12px;
-    border-left: 5px solid red;
-    color: #721c24;
-    background-color: #f8d7da;
-    border-color: #f5c6cb;
-}
-
-#logincontent p.info {
-    padding: 12px;
-    color: #004085;
-    background-color: #cce5ff;
-    border-color: #b8daff;
-    border-left: 5px solid #b8daff;
-}
-
-a, a:link {
-    color: #2090ac;
-    margin-left: 15px;
-}
-
-
-#loginform [type=submit]:hover, [type=reset]:hover {
-    background-color: #f3f3f3;
-}
-
-
-#equipments {
-    margin-top: 60px;
-
-}
 
 
 /*
