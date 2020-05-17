@@ -681,6 +681,19 @@ Stocks starts here
 }
 
 
+#table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+#table tr:hover {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+
+
+
 
 #tablecontainer h2 {
     font-size: 30px;
@@ -699,20 +712,24 @@ Stocks starts here
 
 
 #myInput {
-    background-image: url('/css/searchicon.png');
-    background-position: 10px 12px;
-    background-repeat: no-repeat;
     width: 100%;
     font-size: 16px;
     padding: 12px 0px 12px 0px;
     border: 1px solid #ddd;
     margin-bottom: 12px;
+    text-indent: 70px;
 }
 
 
 
+.input-icons i {
+    position: absolute;
+}
 
 
+.icon {
+    padding: 5px 0px 30px 10px;
+}
 
 
 
