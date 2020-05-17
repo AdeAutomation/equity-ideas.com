@@ -427,6 +427,7 @@ Blog page starts here
 
 #stockscontent {
     clear: both;
+    margin: 0px 0px 60px 0px;
 }
 
 
@@ -677,8 +678,18 @@ Stocks starts here
     border: solid blue 1px;
     border-collapse: collapse;
     border-spacing: 15px;
-
 }
+
+
+
+#tablecontainer h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+}
+
+
 
 #table th, td{
     border: solid blue 1px;
@@ -686,17 +697,6 @@ Stocks starts here
     border-collapse: collapse;
 }
 
-
-
-
-
-
-#table caption {
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-    margin: 0px 0px 20px 0px;
-}
 
 
 
