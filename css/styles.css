@@ -675,9 +675,9 @@ Stocks starts here
 #table  {
     clear: both;
     width: 100%;
-    border: solid blue 1px;
+    border: solid #103473 1px;
     border-collapse: collapse;
-    border-spacing: 15px;
+    border-spacing: 20px;
 }
 
 
@@ -705,10 +705,21 @@ Stocks starts here
 
 
 #table th, td{
-    border: solid blue 1px;
-    padding: 10px;
+    border: solid #103473 1px;
+    padding: 15px;
     border-collapse: collapse;
 }
+
+
+
+
+
+#table thead{
+    background-color: #103473;
+    color: white;
+}
+
+
 
 
 #myInput {
