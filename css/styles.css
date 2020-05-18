@@ -672,7 +672,7 @@ Stocks starts here
 }
 
 
-#table  {
+#mytable  {
     clear: both;
     width: 100%;
     border: solid #103473 1px;
@@ -681,12 +681,12 @@ Stocks starts here
 }
 
 
-#table tr:nth-child(even) {
+#mytable tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
 
-#table tr:not(:first-child):hover {
+#mytable tr:not(:first-child):hover {
     background-color:#ccc;
     color: black;
 }
@@ -704,7 +704,7 @@ Stocks starts here
 
 
 
-#table th, td{
+#mytable th, td{
     border: solid #103473 1px;
     padding: 15px;
     border-collapse: collapse;
@@ -714,7 +714,7 @@ Stocks starts here
 
 
 
-#table thead{
+#mytable thead{
     background-color: #103473;
     color: white;
 }
