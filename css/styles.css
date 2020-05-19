@@ -153,12 +153,6 @@ Home Page starts here
 }
 
 
-
-
-
-
-
-
 #homegallery {
     clear: both;
 }
@@ -179,13 +173,20 @@ Blog page starts here
     height: 400px;
     margin: auto;
     margin-bottom: 50px;
-
 }
 
 
-#blogrow1 h1 {
+#blogrow1 h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 0 0 17px;
+}
 
-    margin-bottom: 30px;
+
+#blogrow1 p {
+    margin: 0 0 0 17px;
+    color: #737373;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 
@@ -194,21 +195,7 @@ Blog page starts here
     width: 320px;
     height: 400px;
     border: solid #cccccc 1px;
-    margin-right: 20px;
-}
-
-#blogcard1 h3 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 19px;
-
-}
-
-
-#blogcard1 p {
-    font-family: Helvetica, Arial, sans-serif;
-    color: #737373;
-    font-size: 15px;
-    line-height: 20px;
+    margin-right: 23.5px;
 }
 
 
@@ -238,12 +225,26 @@ Blog page starts here
 }
 
 
+#blogrow2 h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 0 0 17px;
+}
+
+
+#blogrow2 p {
+    margin: 0 0 0 17px;
+    color: #737373;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
 #blogcard4 {
     float: left;
     width: 320px;
     height: 400px;
     border: solid #cccccc 1px;
-    margin-right: 20px;
+    margin-right: 23.5px;
 }
 
 
@@ -273,12 +274,26 @@ Blog page starts here
 }
 
 
+#blogrow3 h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 0 0 17px;
+}
+
+
+#blogrow3 p {
+    margin: 0 0 0 17px;
+    color: #737373;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
 #blogcard7 {
     float: left;
     width: 320px;
     height: 400px;
     border: solid #cccccc 1px;
-    margin-right: 20px;
+    margin-right: 23.5px;
 }
 
 
@@ -308,12 +323,26 @@ Blog page starts here
 }
 
 
+#blogrow4 h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 0 0 17px;
+}
+
+
+#blogrow4 p {
+    margin: 0 0 0 17px;
+    color: #737373;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
 #blogcard10 {
     float: left;
     width: 320px;
     height: 400px;
     border: solid #cccccc 1px;
-    margin-right: 20px;
+    margin-right: 23.5px;
 }
 
 
@@ -342,12 +371,27 @@ Blog page starts here
     margin-bottom: 50px;
 }
 
+
+#blogrow5 h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 0 0 17px;
+}
+
+
+#blogrow5 p {
+    margin: 0 0 0 17px;
+    color: #737373;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
 #blogcard13 {
     float: left;
     width: 320px;
     height: 400px;
     border: solid #cccccc 1px;
-    margin-right: 20px;
+    margin-right: 23.5px;
 }
 
 
@@ -377,12 +421,26 @@ Blog page starts here
 }
 
 
+#blogrow6 h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 0 0 17px;
+}
+
+
+#blogrow6 p {
+    margin: 0 0 0 17px;
+    color: #737373;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
 #blogcard16 {
     float: left;
     width: 320px;
     height: 400px;
     border: solid #cccccc 1px;
-    margin-right: 20px;
+    margin-right: 23.5px;
 }
 
 
@@ -424,7 +482,6 @@ Blog page starts here
 }
 
 
-
 #stockscontent {
     clear: both;
     margin: 0px 0px 60px 0px;
@@ -435,11 +492,6 @@ Blog page starts here
     font-size: 40px;
     margin-top: 350px;
 }
-
-
-
-
-
 
 
 /*
@@ -456,12 +508,6 @@ Register Page starts here
 }
 
 
-
-
-
-
-
-
 /*
    Contact Us age starts here
     */
@@ -474,12 +520,9 @@ Register Page starts here
 }
 
 
-
-
 #contactuscontent {
     margin-bottom: 50px;
 }
-
 
 
 #contactuscontent1 {
@@ -495,10 +538,8 @@ Register Page starts here
 
 
 #cform {
-   margin-bottom: 120px;
+    margin-bottom: 120px;
 }
-
-
 
 
 .mailmunch-forms-widget-902328 {
@@ -506,7 +547,6 @@ Register Page starts here
     width: 40%;
     height: 300px;
 }
-
 
 
 #contactform select {
@@ -518,8 +558,6 @@ Register Page starts here
     border-radius: 4px;
     box-sizing: border-box;
 }
-
-
 
 
 #contactform input[type=text], [type=email], [type=tel], [type=date] {
@@ -541,7 +579,6 @@ Register Page starts here
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 
 
 #submitpanel [type=submit] {
@@ -584,10 +621,6 @@ Register Page starts here
 }
 
 
-
-
-
-
 /*
 Footer starts here
 */
@@ -610,8 +643,7 @@ Footer starts here
 }
 
 
-
-#icons{
+#icons {
     float: left;
     height: 50px;
     width: 300px;
@@ -619,8 +651,7 @@ Footer starts here
 }
 
 
-
-#copyright{
+#copyright {
     clear: both;
     height: 30px;
     width: 300px;
@@ -628,7 +659,6 @@ Footer starts here
     color: #fff;
 
 }
-
 
 
 #footer h2 {
@@ -651,16 +681,6 @@ Footer starts here
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /*
 Stocks starts here
 */
@@ -672,7 +692,7 @@ Stocks starts here
 }
 
 
-#mytable  {
+#mytable {
     clear: both;
     width: 100%;
     border: solid #103473 1px;
@@ -687,12 +707,9 @@ Stocks starts here
 
 
 #mytable tr:not(:first-child):hover {
-    background-color:#ccc;
+    background-color: #ccc;
     color: black;
 }
-
-
-
 
 
 #tablecontainer h2 {
@@ -703,23 +720,17 @@ Stocks starts here
 }
 
 
-
-#mytable th, td{
+#mytable th, td {
     border: solid #103473 1px;
     padding: 15px;
     border-collapse: collapse;
 }
 
 
-
-
-
-#mytable thead{
+#mytable thead {
     background-color: #103473;
     color: white;
 }
-
-
 
 
 #myInput {
@@ -730,7 +741,6 @@ Stocks starts here
     margin-bottom: 12px;
     text-indent: 70px;
 }
-
 
 
 .input-icons i {
