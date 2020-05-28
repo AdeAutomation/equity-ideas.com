@@ -162,7 +162,7 @@ Home Page starts here
 Blog page starts here
 */
 
-#aboutuscontent1 {
+#blogcontent1 {
     clear: both;
     margin-top: 50px;
 }
@@ -462,8 +462,54 @@ Blog page starts here
 
 
 /*
-   Services Page starts here
+   Blog posts pages starts here
     */
+
+#blogpostheading h2 {
+    clear: both;
+    width: 750px;
+    height: 120px;
+    margin: auto;
+    text-align: center;
+    color: #333333;
+    font-family: "avenir-regular", arial, sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+
+#blogpostimage {
+clear: both;
+    border: solid 2px red;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+
+
+#blogpoststory {
+    clear: both;
+    border: solid 2px red;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+    /*
+       Stocks page starts here
+        */
 
 #stocksslideshow {
 
@@ -751,9 +797,6 @@ Stocks starts here
 .icon {
     padding: 5px 0px 30px 10px;
 }
-
-
-
 
 
 
