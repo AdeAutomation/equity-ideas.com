@@ -183,6 +183,12 @@ Blog page starts here
 }
 
 
+
+#blogrow1 a h3:hover {
+    color:  #737373;
+}
+
+
 #blogrow1 p {
     margin: 0 0 0 17px;
     color: #737373;
