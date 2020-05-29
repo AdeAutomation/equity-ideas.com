@@ -179,6 +179,7 @@ Blog page starts here
 #blogrow1 h3 {
     font-family: Helvetica, Arial, sans-serif;
     margin: 0 0 0 17px;
+    color: black;
 }
 
 
@@ -481,8 +482,7 @@ Blog page starts here
 
 
 #blogpostimage {
-clear: both;
-    border: solid 2px red;
+    clear: both;
     width: 800px;
     height: 500px;
     margin: auto;
@@ -490,26 +490,24 @@ clear: both;
 }
 
 
-
-
 #blogpoststory {
     clear: both;
-    border: solid 2px red;
-    width: 700px;
-    height: 500px;
+    width: 720px;
     margin: auto;
 }
 
 
+#blogpoststory p {
+    line-height: 28px;
+    color: #4c4c4c;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
 
 
-
-
-
-
-    /*
-       Stocks page starts here
-        */
+/*
+   Stocks page starts here
+    */
 
 #stocksslideshow {
 
