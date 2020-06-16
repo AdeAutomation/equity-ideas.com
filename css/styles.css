@@ -151,6 +151,16 @@ Home Page starts here
 }
 
 
+.mailmunch-forms-widget-902458 {
+    float: right;
+    width: 450px;
+    height: 200px;
+    border: 2px solid red;
+    margin-top: 30px;
+}
+
+
+
 #homenewsletter {
     float: right;
     width: 410px;
@@ -557,19 +567,6 @@ Blog page starts here
     margin-top: 350px;
 }
 
-
-/*
-Register Page starts here
-*/
-#registercontent {
-    clear: both;
-}
-
-
-#registercontent h1 {
-    font-size: 40px;
-    margin-top: 80px;
-}
 
 
 /*
