@@ -109,11 +109,6 @@ Home Page starts here
 }
 
 
-#homecontent1 p::first-letter {
-    font-size: 200%;
-    color: #f68905;
-}
-
 
 #book {
     float: left;
@@ -137,7 +132,7 @@ Home Page starts here
     line-height: 1;
     background: #000;
     border: 0;
-    color: #fff;
+    color: white;
     line-height: 1.3;
     text-transform: uppercase;
     letter-spacing: .09rem;
