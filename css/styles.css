@@ -151,6 +151,7 @@ Home Page starts here
     width: 450px;
     height: 200px;
     margin-top: 30px;
+    border: 1px solid red;
 }
 
 
@@ -791,8 +792,6 @@ th.sticky-header {
     z-index: 10;
     background-color: #103473;
     color: white;
-    /*To not have transparent background.
-    background-color: white;*/
 }
 
 
