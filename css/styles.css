@@ -556,8 +556,6 @@ Blog page starts here
 }
 
 
-
-
 #tablecontainer {
     clear: both;
     width: 100%;
@@ -632,8 +630,6 @@ th.sticky-header {
 .icon {
     padding: 5px 0px 30px 10px;
 }
-
-
 
 
 /*
@@ -808,9 +804,170 @@ Footer starts here
     text-align: center;
 }
 
+/*****************************
+Responsive
+******************************/
+@media screen and (max-width: 1030px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 
+    #blogrow1, #blogrow2, #blogrow3, #blogrow4, #blogrow5, #blogrow6 {
+        clear: both;
+        width: 100%;
+        height: auto;
+        /*display: flex;*/
+        /*flex-wrap: wrap;*/
+    }
 
+    #blogrow1 > div, #blogrow2 > div, #blogrow3 > div, #blogrow4 > div, #blogrow5 > div, #blogrow6 > div {
+        /*flex: 33.33%;*/
+        /*max-width: 33.33%;*/
+        width: calc(33.33% - 24px);
+        margin-bottom: 30px;
+    }
 
+}
+
+@media screen and (max-width: 870px) {
+    #name {
+        width: 30%;
+        margin: 0;
+    }
+
+    #name img {
+        float: none;
+    }
+
+    #topnav {
+        width: 70%;
+        margin: 0 0 30px;
+    }
+
+    #book {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #youtube {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #youtube:before {
+        display: block;
+        content: "";
+        padding-top: 56.25%;
+    }
+
+    #youtube iframe {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+    .mailmunch-forms-widget-902458 {
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #footer {
+        height: auto;
+    }
+
+    #footer h2 {
+        float: none;
+    }
+
+    #footer a {
+        margin: 5px;
+        float: none;
+        display: inline-block;
+    }
+
+    #followus {
+        margin: 10px auto 0;
+        float: none;
+        text-align: center;
+    }
+
+    #icons {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+    }
+
+    #blogpostheading {
+        clear: both;
+    }
+
+    #blogpostheading h2 {
+        width: 100%;
+        height: auto;
+    }
+
+    #blogpostimage {
+        width: 100%;
+        height: auto;
+    }
+
+    #blogpoststory {
+        width: 100%;
+    }
+
+    #contactusbanner {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #name {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    #topnav {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    #topnav ul {
+        text-align: center;
+    }
+
+    #homecontent1 {
+        clear: both;
+        padding: 0;
+        margin: 0;
+    }
+
+    #contactform {
+        float: none;
+        width: 100%;
+    }
+
+    #blogrow1 > div, #blogrow2 > div, #blogrow3 > div, #blogrow4 > div, #blogrow5 > div, #blogrow6 > div {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+}
 
 
 
