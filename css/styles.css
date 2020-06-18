@@ -109,7 +109,6 @@ Home Page starts here
 }
 
 
-
 #book {
     float: left;
     width: 580px;
@@ -117,13 +116,11 @@ Home Page starts here
 }
 
 
-
-#book img{
+#book img {
     width: 100%;
     height: 700px;
     background-color: #f3f3f3;
 }
-
 
 
 #book button {
@@ -151,9 +148,7 @@ Home Page starts here
     width: 450px;
     height: 200px;
     margin-top: 30px;
-    border: 1px solid red;
 }
-
 
 
 #homenewsletter {
@@ -194,9 +189,8 @@ Blog page starts here
 }
 
 
-
 #blogrow1 a h3:hover {
-    color:  #737373;
+    color: #737373;
 }
 
 
@@ -563,6 +557,85 @@ Blog page starts here
 
 
 
+
+#tablecontainer {
+    clear: both;
+    width: 100%;
+}
+
+
+#mytable {
+    clear: both;
+    width: 100%;
+    border: solid #103473 1px;
+    border-collapse: collapse;
+    border-spacing: 20px;
+}
+
+
+#mytable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+#mytable tr:not(:first-child):hover {
+    background-color: #ccc;
+    color: black;
+}
+
+
+#tablecontainer h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+}
+
+
+#mytable th, td {
+    border: solid #103473 1px;
+    padding: 15px;
+    border-collapse: collapse;
+}
+
+
+th.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #103473;
+    color: white;
+}
+
+
+#mytable thead {
+    background-color: #103473;
+    color: white;
+}
+
+
+#myInput {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 0px 12px 0px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    text-indent: 70px;
+}
+
+
+.input-icons i {
+    position: absolute;
+}
+
+
+.icon {
+    padding: 5px 0px 30px 10px;
+}
+
+
+
+
 /*
    Contact Us age starts here
     */
@@ -736,91 +809,6 @@ Footer starts here
 }
 
 
-/*
-Stocks starts here
-*/
-
-
-#tablecontainer {
-    clear: both;
-    width: 100%;
-}
-
-
-#mytable {
-    clear: both;
-    width: 100%;
-    border: solid #103473 1px;
-    border-collapse: collapse;
-    border-spacing: 20px;
-}
-
-
-#mytable tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-
-#mytable tr:not(:first-child):hover {
-    background-color: #ccc;
-    color: black;
-}
-
-
-
-#tablecontainer h2 {
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-    margin: 0px 0px 20px 0px;
-}
-
-
-#mytable th, td {
-    border: solid #103473 1px;
-    padding: 15px;
-    border-collapse: collapse;
-}
-
-
-
-
-
-th.sticky-header {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background-color: #103473;
-    color: white;
-}
-
-
-
-
-#mytable thead {
-    background-color: #103473;
-    color: white;
-}
-
-
-#myInput {
-    width: 100%;
-    font-size: 16px;
-    padding: 12px 0px 12px 0px;
-    border: 1px solid #ddd;
-    margin-bottom: 12px;
-    text-indent: 70px;
-}
-
-
-.input-icons i {
-    position: absolute;
-}
-
-
-.icon {
-    padding: 5px 0px 30px 10px;
-}
 
 
 
