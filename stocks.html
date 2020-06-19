@@ -4,7 +4,8 @@
 
 <!-- MailMunch for Equity Ideas -->
 <!-- Paste this code right before the </head> tag on every page of your site. -->
-<script src="//a.mailmunch.co/app/v1/site.js" id="mailmunch-script" data-mailmunch-site-id="775528" async="async"></script>
+<script src="//a.mailmunch.co/app/v1/site.js" id="mailmunch-script" data-mailmunch-site-id="775528"
+        async="async"></script>
 <head>
     <title>Login</title>
     <meta charset="utf-8">
@@ -41,6 +42,8 @@
         </ul>
     </div>
     <div id="stocksslideshow">
+        <img style="visibility: hidden" src="images/stock-exchange-banner.jpg" alt="Stock Exchange-Banner" width="1050"
+             height="300">
         <div>
             <img src="images/stock-exchange-banner.jpg" alt="Stock Exchange-Banner" width="1050" height="300">
         </div>
@@ -50,7 +53,9 @@
         <div>
             <img src="images/mobile-phone-stock-arrow.jpg" alt="A white and blue building" width="1050" height="300">
         </div>
+
     </div>
+
     <div id="stockscontent">
         <h1>Stocks</h1>
         <br>
@@ -62,584 +67,586 @@
 
         <div class="input-icons">
             <i class="fa fa-search icon fa-2x "></i>
-            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for a company..." title="Type in a name">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for a company..."
+                   title="Type in a name">
         </div>
+        <div class="mytable-responsive">
+            <table id="mytable">
 
-        <table id="mytable">
+                <thead>
+                <tr>
+                    <th class="sticky-header">Company</th>
+                    <th class="sticky-header">Bonus</th>
+                    <th class="sticky-header">Dividend/Share</th>
+                    <th class="sticky-header">Date Announced</th>
+                    <th class="sticky-header">Qualification Date</th>
+                    <th class="sticky-header">Closure of Register</th>
+                    <th class="sticky-header">Payment Date</th>
+                    <th class="sticky-header">AGM Date</th>
+                </tr>
+                </thead>
 
-            <thead>
-            <tr>
-                <th class="sticky-header">Company</th>
-                <th class="sticky-header">Bonus</th>
-                <th class="sticky-header">Dividend/Share</th>
-                <th class="sticky-header">Date Announced</th>
-                <th class="sticky-header">Qualification Date</th>
-                <th class="sticky-header">Closure of Register</th>
-                <th class="sticky-header">Payment Date</th>
-                <th class="sticky-header">AGM Date</th>
-            </tr>
-            </thead>
+                <tbody>
+                <tr>
+                    <th>Dangote Sugar Refinery PLC</th>
+                    <td>Nil</td>
+                    <td>₦1.10</td>
+                    <td>8th June 2020</td>
+                    <td>19th June 2020</td>
+                    <td>22nd June 2020</td>
+                    <td>Within 48 Hours after AGM date</td>
+                    <td>9th July 2020</td>
+                </tr>
+                <tr>
+                    <th>Jaiz bank</th>
+                    <td>Nil</td>
+                    <td>₦0.03</td>
+                    <td>9th June 2020</td>
+                    <td>26th June 2020</td>
+                    <td>29th June - 3rd July 2020</td>
+                    <td>16th July 2020</td>
+                    <td>16th July 2020</td>
+                </tr>
+                <tr>
+                    <th>UAC of Nigeria PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.10</td>
+                    <td>20th April 2020</td>
+                    <td>18th May 2020</td>
+                    <td>19th-22nd May 2020</td>
+                    <td>16th July 2020</td>
+                    <td>15th July 2020</td>
+                </tr>
+                <tr>
+                    <th>Prestige Assurance PLC</th>
+                    <td>2 shares for every 11 shares</span></td>
+                    <td>Nil</td>
+                    <td>4th June 2020</td>
+                    <td>19th June 2020</td>
+                    <td>22nd-26th June 2020</td>
+                    <td>N/A</td>
+                    <td>30th June 2020</td>
+                </tr>
+                <tr>
+                    <th>Presco PLC</th>
+                    <td>Nil</td>
+                    <td>₦2.00</td>
+                    <td>3rd June 2020</td>
+                    <td>17th July 2020</td>
+                    <td>20th-22nd July 2020</td>
+                    <td>7th August 2020</td>
+                    <td>5th August 2020</td>
+                </tr>
+                <tr>
+                    <th>Trans-Nationwide Express PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.03</td>
+                    <td>1st June 2020</td>
+                    <td>3rd July 2020</td>
+                    <td>6th-10th July 2020</td>
+                    <td>20th July 2020</td>
+                    <td>16th July 2020</td>
+                </tr>
+                <tr>
+                    <th>Nigeria Aviation Handling Company PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.30</td>
+                    <td>28th May 2020</td>
+                    <td>30th June 2020</td>
+                    <td>1st-3rd July 2020</td>
+                    <td>16th July 2020</td>
+                    <td>16th July 2020</td>
+                </tr>
+                <tr>
+                    <th>Skyway Aviation Handling Co. PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.16</td>
+                    <td>1st June 2020</td>
+                    <td>16th June 2020</td>
+                    <td>17th-23rd June 2020</td>
+                    <td>30th June 2020</td>
+                    <td>30th June 2020</td>
+                </tr>
+                <tr>
+                    <th>11 PLC (Formerly Mobil Oil Nig. PLC)</th>
+                    <td>Nil</td>
+                    <td>₦8.25</td>
+                    <td>28th May 2020</td>
+                    <td>29th Sept 2020</td>
+                    <td>30th Sept - 5th Oct 2020</td>
+                    <td>To be confirmed</td>
+                    <td>To be confirmed</td>
+                </tr>
+                <tr>
+                    <th>Glaxo SmithKilne Consumer Nig. PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.55</td>
+                    <td>22nd May 2020</td>
+                    <td>22nd June 2020</td>
+                    <td>23rd June - 2nd July 2020</td>
+                    <td>24th July 2020</td>
+                    <td>23rd July 2020</td>
+                </tr>
+                <tr>
+                    <th>Airtel Africa</th>
+                    <td>Nil</td>
+                    <td>$0.03</td>
+                    <td>13th May 2020</td>
+                    <td>N/A</td>
+                    <td>6th July 2020</td>
+                    <td>24th July 2020</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <th>Caverton Offshore Support Group PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.20</td>
+                    <td>22nd May 2020</td>
+                    <td>15th June 2020</td>
+                    <td>16th June 2020</td>
+                    <td>25th June 2020</td>
+                    <td>25th June 2020</td>
+                </tr>
+                <tr>
+                    <th>Nigerian Breweries PLC</th>
+                    <td>Nil</td>
+                    <td>₦1.51</td>
+                    <td>20th May 2020</td>
+                    <td>4th March 2020</td>
+                    <td>5th-11th March 2020</td>
+                    <td>24th June 2020</td>
+                    <td>23rd June 2020</td>
+                </tr>
+                <tr>
+                    <th>BUA Cement</th>
+                    <td>Nil</td>
+                    <td>₦1.75</td>
+                    <td>19th May 2020</td>
+                    <td>25th September 2020</td>
+                    <td>28th Sept - 2nd Oct 2020</td>
+                    <td>23rd October 2020</td>
+                    <td>22nd October 2020</td>
+                </tr>
+                <tr>
+                    <th>NASCON Allied Industries PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.40</td>
+                    <td>13th May 2020</td>
+                    <td>14th July 2020</td>
+                    <td>15th-16th July 2020</td>
+                    <td>29th July 2020</td>
+                    <td>27th July 2020</td>
+                </tr>
+                <tr>
+                    <th>Total Nigeria PLC</th>
+                    <td>Nil</td>
+                    <td>₦6.71</td>
+                    <td>13th May 2020</td>
+                    <td>4th June 2020</td>
+                    <td>5th-11th June 2020</td>
+                    <td>To be confirmed</td>
+                    <td>To be confirmed</td>
+                </tr>
+                <tr>
+                    <th>Cadbury Nigeria PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.49</td>
+                    <td>13th May 2020</td>
+                    <td>22nd May 2020</td>
+                    <td>25th-29th May 2020</td>
+                    <td>25th June 2020</td>
+                    <td>24th June 2020</td>
+                </tr>
+                <tr>
+                    <th>May and Baker PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.25</td>
+                    <td>13th May 2020</td>
+                    <td>26th May 2020</td>
+                    <td>27th-29th May 2020</td>
+                    <td>8th June 2020</td>
+                    <td>4th June 2020</td>
+                </tr>
+                <tr>
+                    <th>NPF Microfinance Bank PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.20</td>
+                    <td>11th May 2020</td>
+                    <td>16th June 2020</td>
+                    <td>17th-22nd June 2020</td>
+                    <td>30th June 2020</td>
+                    <td>30th June 2020</td>
+                </tr>
+                <tr>
+                    <th>Okomu Oil Palm PLC</th>
+                    <td>Nil</td>
+                    <td>₦2.00</td>
+                    <td>23rd April 2020</td>
+                    <td>18th May 2020</td>
+                    <td>19th-22nd May 2020</td>
+                    <td>29th May 2020</td>
+                    <td>28th May 2020</td>
+                </tr>
+                <tr>
+                    <th>Lafarge Africa PLC</th>
+                    <td>Nil</td>
+                    <td>₦1.00</td>
+                    <td>27th April 2020</td>
+                    <td>30th April 2020</td>
+                    <td>4th-8th May 2020</td>
+                    <td>3rd June 2020</td>
+                    <td>3rd June 2020</td>
+                </tr>
+                <tr>
+                    <th>Wema Bank PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.04</td>
+                    <td>23rd April 2020</td>
+                    <td>6th May 2020</td>
+                    <td>7th-12th May 2020</td>
+                    <td>18th May 2020</td>
+                    <td>18th May 2020</td>
+                </tr>
+                <tr>
+                    <th>Union bank of Nigeria</th>
+                    <td>Nil</td>
+                    <td>₦0.25</td>
+                    <td>213th April 2020</td>
+                    <td>24th April 2020</td>
+                    <td>27th-30th April 2020</td>
+                    <td>6th May 2020</td>
+                    <td>6th May 2020</td>
+                </tr>
+                <tr>
+                    <th>FBN Holdings</th>
+                    <td>Nil</td>
+                    <td>₦0.38k</td>
+                    <td>6th April 2020</td>
+                    <td>20th April 2020</td>
+                    <td>21st-22nd April 2020</td>
+                    <td>28th April 2020</td>
+                    <td>27th April 2020</td>
+                </tr>
+                <tr>
+                    <th>Ikeja Hotel PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.02</td>
+                    <td>3rd April 2020</td>
+                    <td>1st July 2020</td>
+                    <td>2nd-8th July 2020</td>
+                    <td>7th August 2020</td>
+                    <td>30th July 2020</td>
+                </tr>
+                <tr>
+                    <th>McNichols Consolidated PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.03</td>
+                    <td>1st April 2020</td>
+                    <td>1st July 2020</td>
+                    <td>2nd-8th July 2020</td>
+                    <td>7th August 2020</td>
+                    <td>30th July 2020</td>
+                </tr>
+                <tr>
+                    <th>NEM Insurance</th>
+                    <td>Nil</td>
+                    <td>₦0.15</td>
+                    <td>1st April 2020</td>
+                    <td>30th April 2020</td>
+                    <td>4th-8th May 2020</td>
+                    <td>To be confirmed</td>
+                    <td>To be confirmed</td>
+                </tr>
+                <tr>
+                    <th>FCMB Group PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.14</td>
+                    <td>31st March 2020</td>
+                    <td>14th April 2020</td>
+                    <td>15th-17th April 2020</td>
+                    <td>28th April 2020</td>
+                    <td>28th April 2020</td>
+                </tr>
+                <tr>
+                    <th>Beta Glass Nigeria PLC</th>
+                    <td>Nil</td>
+                    <td>₦1.67</td>
+                    <td>30th March 2020</td>
+                    <td>11th June 2020</td>
+                    <td>15th-19th June 2020</td>
+                    <td>3rd July 2020</td>
+                    <td>2nd July 2020</td>
+                </tr>
+                <tr>
+                    <th>Capital Hotel PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.05</td>
+                    <td>26th March 2020</td>
+                    <td>17th April 2020</td>
+                    <td>20th-24th April 2020</td>
+                    <td>3rd June 2020</td>
+                    <td>27th May 2020</td>
+                </tr>
+                <tr>
+                    <th>Sterling Bank PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.03</td>
+                    <td>26th March 2020</td>
+                    <td>4th May 2020</td>
+                    <td>5th-8th May 2020</td>
+                    <td>20th May 2020</td>
+                    <td>20th May 2020</td>
+                </tr>
+                <tr>
+                    <th>Boc Gases</th>
+                    <td>Nil</td>
+                    <td>₦0.30</td>
+                    <td>26th March 2020</td>
+                    <td>5th June 2020</td>
+                    <td>8th-10th June 2020</td>
+                    <td>26th June 2020</td>
+                    <td>25th June 2020</td>
+                </tr>
+                <tr>
+                    <th>Fidelity Bank PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.20</td>
+                    <td>23rd March 2020</td>
+                    <td>17th April 2020</td>
+                    <td>20th-24th April 2020</td>
+                    <td>30th April 2020</td>
+                    <td>30th April 2020</td>
+                </tr>
+                <tr>
+                    <th>Seplat Petroleum Dev. Company PLC</th>
+                    <td>Nil</td>
+                    <td>$0.05</td>
+                    <td>23rd March 2020</td>
+                    <td>12th May 2020</td>
+                    <td>13th May 2020</td>
+                    <td>4th June 2020</td>
+                    <td>28th May 2020</td>
+                </tr>
+                <tr>
+                    <th>Julius Berger Nig. PLC</th>
+                    <td>Nil</td>
+                    <td>₦2.75</td>
+                    <td>13th March 2020</td>
+                    <td>29th May 2020</td>
+                    <td>1st-3rd June 2020</td>
+                    <td>19th June 2020</td>
+                    <td>18th June 2020</td>
+                </tr>
+                <tr>
+                    <th>Nigeria Energy Sector Fund (NESF)</th>
+                    <td>Nil</td>
+                    <td>₦75.00</td>
+                    <td>10th March 2020</td>
+                    <td>19th March 2020</td>
+                    <td>20th March 2020</td>
+                    <td>6th April 2020</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <th>Access Bank PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.40</td>
+                    <td>6th March 2020</td>
+                    <td>14th April 2020</td>
+                    <td>15th April 2020</td>
+                    <td>30th April 2020</td>
+                    <td>30th April 2020</td>
+                </tr>
+                <tr>
+                    <th>Nestle Nig Plc</th>
+                    <td>Nil</td>
+                    <td>₦45.00</td>
+                    <td>28th February 2020</td>
+                    <td>15th May 2020</td>
+                    <td>18th-22nd May 2020</td>
+                    <td>2nd July 2020</td>
+                    <td>2nd June 2020</td>
+                </tr>
+                <tr>
+                    <th>Stanbic IBTC Holdings PLC</th>
+                    <td>Nil</td>
+                    <td>₦2.00</td>
+                    <td>5th March 2020</td>
+                    <td>18th March 2020</td>
+                    <td>19th-26th March 2020</td>
+                    <td>18th June 2020</td>
+                    <td>30th June 2020</td>
+                </tr>
+                <tr>
+                    <th>Guaranty Trust Bank PLC</th>
+                    <td>Nil</td>
+                    <td>₦2.50</td>
+                    <td>2nd March 2020</td>
+                    <td>18th March 2020</td>
+                    <td>19th March 2020</td>
+                    <td>30th March 2020</td>
+                    <td>30th March 2020</td>
+                </tr>
+                <tr>
+                    <th>United Bank of Africa</th>
+                    <td>Nil</td>
+                    <td>₦0.80</td>
+                    <td>2nd March 2020</td>
+                    <td>13th March 2020</td>
+                    <td>16th-20th March 2020</td>
+                    <td>27th March 2020</td>
+                    <td>27th March 2020</td>
+                </tr>
+                <tr>
+                    <th>Transcorp PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.01</td>
+                    <td>28th February 2020</td>
+                    <td>17th March 2020</td>
+                    <td>18th-23rd March 2020</td>
+                    <td>27th March 2020</td>
+                    <td>25th March 2020</td>
+                </tr>
+                <tr>
+                    <th>MTN Nigeria PLC</th>
+                    <td>Nil</td>
+                    <td>₦4.97</td>
+                    <td>28th February 2020</td>
+                    <td>17th April 2020</td>
+                    <td>20th April 2020</td>
+                    <td>19th May 2020</td>
+                    <td>15th May 2020</td>
+                </tr>
+                <tr>
+                    <th>Transcorp Hotels PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.07</td>
+                    <td>28th February 2020</td>
+                    <td>12th March 2020</td>
+                    <td>13th-17th March 2020</td>
+                    <td>26th March 2020</td>
+                    <td>24th March 2020</td>
+                </tr>
+                <tr>
+                    <th>United Capital PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.50</td>
+                    <td>18th February 2020</td>
+                    <td>6th March 2020</td>
+                    <td>9th-13th March 2020</td>
+                    <td>26th March 2020</td>
+                    <td>24th March 2020</td>
+                </tr>
+                <tr>
+                    <th>Infinity Trust Mortgage Bank PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.035</td>
+                    <td>30th January 2020</td>
+                    <td>6th March 2020</td>
+                    <td>9th-13th March 2020</td>
+                    <td>14th May 2020</td>
+                    <td>7th May 2020</td>
+                </tr>
+                <tr>
+                    <th>Zenith bank PLC</th>
+                    <td>Nil</td>
+                    <td>₦2.50</td>
+                    <td>21st February 2020</td>
+                    <td>9th March 2020</td>
+                    <td>10th March 2020</td>
+                    <td>16th March 2020</td>
+                    <td>16th March 2020</td>
+                </tr>
+                <tr>
+                    <th>Africa Prudential PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.70</td>
+                    <td>25th february 2020</td>
+                    <td>6th March 2020</td>
+                    <td>9th-13th March 2020</td>
+                    <td>23rd March 2020</td>
+                    <td>23rd March 2020</td>
+                </tr>
+                <tr>
+                    <th>Dangote Cement PLC</th>
+                    <td>Nil</td>
+                    <td>₦16.00</td>
+                    <td>25th february 2020</td>
+                    <td>25th May 2020</td>
+                    <td>26th May 2020</td>
+                    <td>16th June 2020</td>
+                    <td>15th June 2020</td>
+                </tr>
 
-            <tbody>
-            <tr>
-                <th>Dangote Sugar Refinery PLC</th>
-                <td>Nil</td>
-                <td>₦1.10</td>
-                <td>8th June 2020</td>
-                <td>19th June 2020</td>
-                <td>22nd June 2020</td>
-                <td>Within 48 Hours after AGM date</td>
-                <td>9th July 2020</td>
-            </tr>
-            <tr>
-                <th>Jaiz bank</th>
-                <td>Nil</td>
-                <td>₦0.03</td>
-                <td>9th June 2020</td>
-                <td>26th June 2020</td>
-                <td>29th June - 3rd July 2020</td>
-                <td>16th July 2020</td>
-                <td>16th July 2020</td>
-            </tr>
-            <tr>
-                <th>UAC of Nigeria PLC</th>
-                <td>Nil</td>
-                <td>₦0.10</td>
-                <td>20th April 2020</td>
-                <td>18th May 2020</td>
-                <td>19th-22nd May 2020</td>
-                <td>16th July 2020</td>
-                <td>15th July 2020</td>
-            </tr>
-            <tr>
-                <th>Prestige Assurance PLC</th>
-                <td>2 shares for every 11 shares</span></td>
-                <td>Nil</td>
-                <td>4th June 2020</td>
-                <td>19th June 2020</td>
-                <td>22nd-26th June 2020</td>
-                <td>N/A</td>
-                <td>30th June 2020</td>
-            </tr>
-            <tr>
-                <th>Presco PLC</th>
-                <td>Nil</td>
-                <td>₦2.00</td>
-                <td>3rd June 2020</td>
-                <td>17th July 2020</td>
-                <td>20th-22nd July 2020</td>
-                <td>7th August 2020</td>
-                <td>5th August 2020</td>
-            </tr>
-            <tr>
-                <th>Trans-Nationwide Express PLC</th>
-                <td>Nil</td>
-                <td>₦0.03</td>
-                <td>1st June 2020</td>
-                <td>3rd July 2020</td>
-                <td>6th-10th July 2020</td>
-                <td>20th July 2020</td>
-                <td>16th July 2020</td>
-            </tr>
-            <tr>
-                <th>Nigeria Aviation Handling Company PLC</th>
-                <td>Nil</td>
-                <td>₦0.30</td>
-                <td>28th May 2020</td>
-                <td>30th June 2020</td>
-                <td>1st-3rd July 2020</td>
-                <td>16th July 2020</td>
-                <td>16th July 2020</td>
-            </tr>
-            <tr>
-                <th>Skyway Aviation Handling Co. PLC</th>
-                <td>Nil</td>
-                <td>₦0.16</td>
-                <td>1st June 2020</td>
-                <td>16th June 2020</td>
-                <td>17th-23rd June 2020</td>
-                <td>30th June 2020</td>
-                <td>30th June 2020</td>
-            </tr>
-            <tr>
-                <th>11 PLC (Formerly Mobil Oil Nig. PLC)</th>
-                <td>Nil</td>
-                <td>₦8.25</td>
-                <td>28th May 2020</td>
-                <td>29th Sept 2020</td>
-                <td>30th Sept - 5th Oct 2020</td>
-                <td>To be confirmed</td>
-                <td>To be confirmed</td>
-            </tr>
-            <tr>
-                <th>Glaxo SmithKilne Consumer Nig. PLC</th>
-                <td>Nil</td>
-                <td>₦0.55</td>
-                <td>22nd May 2020</td>
-                <td>22nd June 2020</td>
-                <td>23rd June - 2nd July 2020</td>
-                <td>24th July 2020</td>
-                <td>23rd July 2020</td>
-            </tr>
-            <tr>
-                <th>Airtel Africa</th>
-                <td>Nil</td>
-                <td>$0.03</td>
-                <td>13th May 2020</td>
-                <td>N/A</td>
-                <td>6th July 2020</td>
-                <td>24th July 2020</td>
-                <td>N/A</td>
-            </tr>
-            <tr>
-                <th>Caverton Offshore Support Group PLC</th>
-                <td>Nil</td>
-                <td>₦0.20</td>
-                <td>22nd May 2020</td>
-                <td>15th June 2020</td>
-                <td>16th June 2020</td>
-                <td>25th June 2020</td>
-                <td>25th June 2020</td>
-            </tr>
-            <tr>
-                <th>Nigerian Breweries PLC</th>
-                <td>Nil</td>
-                <td>₦1.51</td>
-                <td>20th May 2020</td>
-                <td>4th March 2020</td>
-                <td>5th-11th March 2020</td>
-                <td>24th June 2020</td>
-                <td>23rd June 2020</td>
-            </tr>
-            <tr>
-                <th>BUA Cement</th>
-                <td>Nil</td>
-                <td>₦1.75</td>
-                <td>19th May 2020</td>
-                <td>25th September 2020</td>
-                <td>28th Sept - 2nd Oct 2020</td>
-                <td>23rd October 2020</td>
-                <td>22nd October 2020</td>
-            </tr>
-            <tr>
-                <th>NASCON Allied Industries PLC</th>
-                <td>Nil</td>
-                <td>₦0.40</td>
-                <td>13th May 2020</td>
-                <td>14th July 2020</td>
-                <td>15th-16th July 2020</td>
-                <td>29th July 2020</td>
-                <td>27th July 2020</td>
-            </tr>
-            <tr>
-                <th>Total Nigeria PLC</th>
-                <td>Nil</td>
-                <td>₦6.71</td>
-                <td>13th May 2020</td>
-                <td>4th June 2020</td>
-                <td>5th-11th June 2020</td>
-                <td>To be confirmed</td>
-                <td>To be confirmed</td>
-            </tr>
-            <tr>
-                <th>Cadbury Nigeria PLC</th>
-                <td>Nil</td>
-                <td>₦0.49</td>
-                <td>13th May 2020</td>
-                <td>22nd May 2020</td>
-                <td>25th-29th May 2020</td>
-                <td>25th June 2020</td>
-                <td>24th June 2020</td>
-            </tr>
-            <tr>
-                <th>May and Baker PLC</th>
-                <td>Nil</td>
-                <td>₦0.25</td>
-                <td>13th May 2020</td>
-                <td>26th May 2020</td>
-                <td>27th-29th May 2020</td>
-                <td>8th June 2020</td>
-                <td>4th June 2020</td>
-            </tr>
-            <tr>
-                <th>NPF Microfinance Bank PLC</th>
-                <td>Nil</td>
-                <td>₦0.20</td>
-                <td>11th May 2020</td>
-                <td>16th June 2020</td>
-                <td>17th-22nd June 2020</td>
-                <td>30th June 2020</td>
-                <td>30th June 2020</td>
-            </tr>
-            <tr>
-                <th>Okomu Oil Palm PLC</th>
-                <td>Nil</td>
-                <td>₦2.00</td>
-                <td>23rd April 2020</td>
-                <td>18th May 2020</td>
-                <td>19th-22nd May 2020</td>
-                <td>29th May 2020</td>
-                <td>28th May 2020</td>
-            </tr>
-            <tr>
-                <th>Lafarge Africa PLC</th>
-                <td>Nil</td>
-                <td>₦1.00</td>
-                <td>27th April 2020</td>
-                <td>30th April 2020</td>
-                <td>4th-8th May 2020</td>
-                <td>3rd June 2020</td>
-                <td>3rd June 2020</td>
-            </tr>
-            <tr>
-                <th>Wema Bank PLC</th>
-                <td>Nil</td>
-                <td>₦0.04</td>
-                <td>23rd April 2020</td>
-                <td>6th May 2020</td>
-                <td>7th-12th May 2020</td>
-                <td>18th May 2020</td>
-                <td>18th May 2020</td>
-            </tr>
-            <tr>
-                <th>Union bank of Nigeria</th>
-                <td>Nil</td>
-                <td>₦0.25</td>
-                <td>213th April 2020</td>
-                <td>24th April 2020</td>
-                <td>27th-30th April 2020</td>
-                <td>6th May 2020</td>
-                <td>6th May 2020</td>
-            </tr>
-            <tr>
-                <th>FBN Holdings</th>
-                <td>Nil</td>
-                <td>₦0.38k</td>
-                <td>6th April 2020</td>
-                <td>20th April 2020</td>
-                <td>21st-22nd April 2020</td>
-                <td>28th April 2020</td>
-                <td>27th April 2020</td>
-            </tr>
-            <tr>
-                <th>Ikeja Hotel PLC</th>
-                <td>Nil</td>
-                <td>₦0.02</td>
-                <td>3rd April 2020</td>
-                <td>1st July 2020</td>
-                <td>2nd-8th July 2020</td>
-                <td>7th August 2020</td>
-                <td>30th July 2020</td>
-            </tr>
-            <tr>
-                <th>McNichols Consolidated PLC</th>
-                <td>Nil</td>
-                <td>₦0.03</td>
-                <td>1st April 2020</td>
-                <td>1st July 2020</td>
-                <td>2nd-8th July 2020</td>
-                <td>7th August 2020</td>
-                <td>30th July 2020</td>
-            </tr>
-            <tr>
-                <th>NEM Insurance</th>
-                <td>Nil</td>
-                <td>₦0.15</td>
-                <td>1st April 2020</td>
-                <td>30th April 2020</td>
-                <td>4th-8th May 2020</td>
-                <td>To be confirmed</td>
-                <td>To be confirmed</td>
-            </tr>
-            <tr>
-                <th>FCMB Group PLC</th>
-                <td>Nil</td>
-                <td>₦0.14</td>
-                <td>31st March 2020</td>
-                <td>14th April 2020</td>
-                <td>15th-17th April 2020</td>
-                <td>28th April 2020</td>
-                <td>28th April 2020</td>
-            </tr>
-            <tr>
-                <th>Beta Glass Nigeria PLC</th>
-                <td>Nil</td>
-                <td>₦1.67</td>
-                <td>30th March 2020</td>
-                <td>11th June 2020</td>
-                <td>15th-19th June 2020</td>
-                <td>3rd July 2020</td>
-                <td>2nd July 2020</td>
-            </tr>
-            <tr>
-                <th>Capital Hotel PLC</th>
-                <td>Nil</td>
-                <td>₦0.05</td>
-                <td>26th March 2020</td>
-                <td>17th April 2020</td>
-                <td>20th-24th April 2020</td>
-                <td>3rd June 2020</td>
-                <td>27th May 2020</td>
-            </tr>
-            <tr>
-                <th>Sterling Bank PLC</th>
-                <td>Nil</td>
-                <td>₦0.03</td>
-                <td>26th March 2020</td>
-                <td>4th May 2020</td>
-                <td>5th-8th May 2020</td>
-                <td>20th May 2020</td>
-                <td>20th May 2020</td>
-            </tr>
-            <tr>
-                <th>Boc Gases</th>
-                <td>Nil</td>
-                <td>₦0.30</td>
-                <td>26th March 2020</td>
-                <td>5th June 2020</td>
-                <td>8th-10th June 2020</td>
-                <td>26th June 2020</td>
-                <td>25th June 2020</td>
-            </tr>
-            <tr>
-                <th>Fidelity Bank PLC</th>
-                <td>Nil</td>
-                <td>₦0.20</td>
-                <td>23rd March 2020</td>
-                <td>17th April 2020</td>
-                <td>20th-24th April 2020</td>
-                <td>30th April 2020</td>
-                <td>30th April 2020</td>
-            </tr>
-            <tr>
-                <th>Seplat Petroleum Dev. Company PLC</th>
-                <td>Nil</td>
-                <td>$0.05</td>
-                <td>23rd March 2020</td>
-                <td>12th May 2020</td>
-                <td>13th May 2020</td>
-                <td>4th June 2020</td>
-                <td>28th May 2020</td>
-            </tr>
-            <tr>
-                <th>Julius Berger Nig. PLC</th>
-                <td>Nil</td>
-                <td>₦2.75</td>
-                <td>13th March 2020</td>
-                <td>29th May 2020</td>
-                <td>1st-3rd June 2020</td>
-                <td>19th June 2020</td>
-                <td>18th June 2020</td>
-            </tr>
-            <tr>
-                <th>Nigeria Energy Sector Fund (NESF)</th>
-                <td>Nil</td>
-                <td>₦75.00</td>
-                <td>10th March 2020</td>
-                <td>19th March 2020</td>
-                <td>20th March 2020</td>
-                <td>6th April 2020</td>
-                <td>N/A</td>
-            </tr>
-            <tr>
-                <th>Access Bank PLC</th>
-                <td>Nil</td>
-                <td>₦0.40</td>
-                <td>6th March 2020</td>
-                <td>14th April 2020</td>
-                <td>15th April 2020</td>
-                <td>30th April 2020</td>
-                <td>30th April 2020</td>
-            </tr>
-            <tr>
-                <th>Nestle Nig Plc</th>
-                <td>Nil</td>
-                <td>₦45.00</td>
-                <td>28th February 2020</td>
-                <td>15th May 2020</td>
-                <td>18th-22nd May 2020</td>
-                <td>2nd July 2020</td>
-                <td>2nd June 2020</td>
-            </tr>
-            <tr>
-                <th>Stanbic IBTC Holdings PLC</th>
-                <td>Nil</td>
-                <td>₦2.00</td>
-                <td>5th March 2020</td>
-                <td>18th March 2020</td>
-                <td>19th-26th March 2020</td>
-                <td>18th June 2020</td>
-                <td>30th June 2020</td>
-            </tr>
-            <tr>
-                <th>Guaranty Trust Bank PLC</th>
-                <td>Nil</td>
-                <td>₦2.50</td>
-                <td>2nd March 2020</td>
-                <td>18th March 2020</td>
-                <td>19th March 2020</td>
-                <td>30th March 2020</td>
-                <td>30th March 2020</td>
-            </tr>
-            <tr>
-                <th>United Bank of Africa</th>
-                <td>Nil</td>
-                <td>₦0.80</td>
-                <td>2nd March 2020</td>
-                <td>13th March 2020</td>
-                <td>16th-20th March 2020</td>
-                <td>27th March 2020</td>
-                <td>27th March 2020</td>
-            </tr>
-            <tr>
-                <th>Transcorp PLC</th>
-                <td>Nil</td>
-                <td>₦0.01</td>
-                <td>28th February 2020</td>
-                <td>17th March 2020</td>
-                <td>18th-23rd March 2020</td>
-                <td>27th March 2020</td>
-                <td>25th March 2020</td>
-            </tr>
-            <tr>
-                <th>MTN Nigeria PLC</th>
-                <td>Nil</td>
-                <td>₦4.97</td>
-                <td>28th February 2020</td>
-                <td>17th April 2020</td>
-                <td>20th April 2020</td>
-                <td>19th May 2020</td>
-                <td>15th May 2020</td>
-            </tr>
-            <tr>
-                <th>Transcorp Hotels PLC</th>
-                <td>Nil</td>
-                <td>₦0.07</td>
-                <td>28th February 2020</td>
-                <td>12th March 2020</td>
-                <td>13th-17th March 2020</td>
-                <td>26th March 2020</td>
-                <td>24th March 2020</td>
-            </tr>
-            <tr>
-                <th>United Capital PLC</th>
-                <td>Nil</td>
-                <td>₦0.50</td>
-                <td>18th February 2020</td>
-                <td>6th March 2020</td>
-                <td>9th-13th March 2020</td>
-                <td>26th March 2020</td>
-                <td>24th March 2020</td>
-            </tr>
-            <tr>
-                <th>Infinity Trust Mortgage Bank PLC</th>
-                <td>Nil</td>
-                <td>₦0.035</td>
-                <td>30th January 2020</td>
-                <td>6th March 2020</td>
-                <td>9th-13th March 2020</td>
-                <td>14th May 2020</td>
-                <td>7th May 2020</td>
-            </tr>
-            <tr>
-                <th>Zenith bank PLC</th>
-                <td>Nil</td>
-                <td>₦2.50</td>
-                <td>21st February 2020</td>
-                <td>9th March 2020</td>
-                <td>10th March 2020</td>
-                <td>16th March 2020</td>
-                <td>16th March 2020</td>
-            </tr>
-            <tr>
-                <th>Africa Prudential PLC</th>
-                <td>Nil</td>
-                <td>₦0.70</td>
-                <td>25th february 2020</td>
-                <td>6th March 2020</td>
-                <td>9th-13th March 2020</td>
-                <td>23rd March 2020</td>
-                <td>23rd March 2020</td>
-            </tr>
-            <tr>
-                <th>Dangote Cement PLC</th>
-                <td>Nil</td>
-                <td>₦16.00</td>
-                <td>25th february 2020</td>
-                <td>25th May 2020</td>
-                <td>26th May 2020</td>
-                <td>16th June 2020</td>
-                <td>15th June 2020</td>
-            </tr>
+                <tr>
+                    <th>Vitafoam Nigeria PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.42</td>
+                    <td>19th December 2019</td>
+                    <td>7th February 2020</td>
+                    <td>10th-14th February 2020</td>
+                    <td>5th March 2020</td>
+                    <td>4th March 2020</td>
+                </tr>
 
-            <tr>
-                <th>Vitafoam Nigeria PLC</th>
-                <td>Nil</td>
-                <td>₦0.42</td>
-                <td>19th December 2019</td>
-                <td>7th February 2020</td>
-                <td>10th-14th February 2020</td>
-                <td>5th March 2020</td>
-                <td>4th March 2020</td>
-            </tr>
+                <tr>
+                    <th>Transnational Corporation of Nigeria PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.01</td>
+                    <td>2nd March 2020</td>
+                    <td>17th March 2020</td>
+                    <td>18th–23rd March 2020</td>
+                    <td>27th March 2020</td>
+                    <td>25th March 2020</td>
+                </tr>
 
-            <tr>
-                <th>Transnational Corporation of Nigeria PLC</th>
-                <td>Nil</td>
-                <td>₦0.01</td>
-                <td>2nd March 2020</td>
-                <td>17th March 2020</td>
-                <td>18th–23rd March 2020</td>
-                <td>27th March 2020</td>
-                <td>25th March 2020</td>
-            </tr>
+                <tr>
+                    <th>The Frontier Fund</th>
+                    <td>Nil</td>
+                    <td>₦5.00</td>
+                    <td></td>
+                    <td>19th March 2020</td>
+                    <td>20th March 2020</td>
+                    <td>6th April 2020</td>
+                    <td>N/A</td>
+                </tr>
 
-            <tr>
-                <th>The Frontier Fund</th>
-                <td>Nil</td>
-                <td>₦5.00</td>
-                <td></td>
-                <td>19th March 2020</td>
-                <td>20th March 2020</td>
-                <td>6th April 2020</td>
-                <td>N/A</td>
-            </tr>
+                <tr>
+                    <th>Custodian Investment PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.35</td>
+                    <td>28 February 2020</td>
+                    <td>2nd April 2020</td>
+                    <td>3rd–9th April 2020</td>
+                    <td>15th April 2020</td>
+                    <td>15th April 2020</td>
+                </tr>
 
-            <tr>
-                <th>Custodian Investment PLC</th>
-                <td>Nil</td>
-                <td>₦0.35</td>
-                <td>28 February 2020</td>
-                <td>2nd April 2020</td>
-                <td>3rd–9th April 2020</td>
-                <td>15th April 2020</td>
-                <td>15th April 2020</td>
-            </tr>
+                <tr>
+                    <th>Berger Paints PLC</th>
+                    <td>Nil</td>
+                    <td>₦0.25</td>
+                    <td>29th May 2020</td>
+                    <td>12th June 2020</td>
+                    <td>15th-19th June 2020</td>
+                    <td>25th June 2020</td>
+                    <td>24th June 2020</td>
+                </tr>
 
-            <tr>
-                <th>Berger Paints PLC</th>
-                <td>Nil</td>
-                <td>₦0.25</td>
-                <td>29th May 2020</td>
-                <td>12th June 2020</td>
-                <td>15th-19th June 2020</td>
-                <td>25th June 2020</td>
-                <td>24th June 2020</td>
-            </tr>
+                <tr>
+                    <th>AIICO Insurance PLC</th>
+                    <td>1 share for every 5 shares</td>
+                    <td>Nil</td>
+                    <td>10th June 2020</td>
+                    <td>26th June 2020</td>
+                    <td>29th June - 3rd July 2020</td>
+                    <td>N/A</td>
+                    <td>To be confirmed</td>
+                </tr>
 
-            <tr>
-                <th>AIICO Insurance PLC</th>
-                <td>1 share for every 5 shares</td>
-                <td>Nil</td>
-                <td>10th June 2020</td>
-                <td>26th June 2020</td>
-                <td>29th June - 3rd July 2020</td>
-                <td>N/A</td>
-                <td>To be confirmed</td>
-            </tr>
-
-            </tbody>
-        </table>
+                </tbody>
+            </table>
+        </div>
     </div>
 
 
@@ -651,10 +658,14 @@
 
 
         <div id="icons">
-            <a href="https://www.facebook.com/MyEquityIdeas" target="_blank" title="Follow us on facebook"><i class="fa fa-facebook-official fa-2x"></a></i>
-            <a href="https://twitter.com/EquityIdea" target="_blank" title="Follow us on twitter"><i class="fa fa-twitter fa-2x"></a></i>
-            <a href="https://www.instagram.com/equityidea" target="_blank" title="Follow us on instagram"><i class="fa fa-instagram fa-2x"></a></i>
-            <a href="https://www.linkedin.com/company/my-equity-ideas" target="_blank" title="Follow us on linkedin"><i class="fa fa-linkedin fa-2x"></a></i>
+            <a href="https://www.facebook.com/MyEquityIdeas" target="_blank" title="Follow us on facebook"><i
+                    class="fa fa-facebook-official fa-2x"></a></i>
+            <a href="https://twitter.com/EquityIdea" target="_blank" title="Follow us on twitter"><i
+                    class="fa fa-twitter fa-2x"></a></i>
+            <a href="https://www.instagram.com/equityidea" target="_blank" title="Follow us on instagram"><i
+                    class="fa fa-instagram fa-2x"></a></i>
+            <a href="https://www.linkedin.com/company/my-equity-ideas" target="_blank" title="Follow us on linkedin"><i
+                    class="fa fa-linkedin fa-2x"></a></i>
         </div>
 
 
