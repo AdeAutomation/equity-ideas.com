@@ -531,7 +531,7 @@ Blog page starts here
 #stocksslideshow {
 
     clear: both;
-    margin: 0px auto;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -547,7 +547,7 @@ Blog page starts here
 
 #stockscontent {
     clear: both;
-    margin: 0px 0px 60px 0px;
+    margin: 0 0 60px 0;
 }
 
 
@@ -586,7 +586,7 @@ Blog page starts here
     font-size: 30px;
     text-align: center;
     font-weight: bold;
-    margin: 0px 0px 20px 0px;
+    margin: 0 0 20px 0;
 }
 
 
@@ -615,7 +615,7 @@ th.sticky-header {
 #myInput {
     width: 100%;
     font-size: 16px;
-    padding: 12px 0px 12px 0px;
+    padding: 12px 0 12px 0;
     border: 1px solid #ddd;
     margin-bottom: 12px;
     text-indent: 70px;
@@ -628,7 +628,7 @@ th.sticky-header {
 
 
 .icon {
-    padding: 5px 0px 30px 10px;
+    padding: 5px 0 30px 10px;
 }
 
 
@@ -939,7 +939,7 @@ Responsive
     }
 
     #stockscontent h1 {
-        margin: 0px;
+        margin: 0;
         padding: 0;
         line-height: 100%;
     }
@@ -953,7 +953,7 @@ Responsive
     }
 
     #mytable th, td {
-        padding: 5px;
+        padding: 3px;
         font-size: 14px;
     }
 }
