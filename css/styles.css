@@ -6,8 +6,10 @@
 
 body {
     background-color: #f3f3f3;
-    font-family: "europa", arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
     line-height: 1.3;
+
 }
 
 
@@ -104,11 +106,6 @@ Home Page starts here
 }
 
 
-#homecontent1 p {
-    font-size: 16px;
-}
-
-
 #book {
     float: left;
     width: 580px;
@@ -172,6 +169,26 @@ Blog page starts here
     clear: both;
     margin-top: 50px;
 }
+
+
+
+.bloglinks{
+    width: 680px;
+    height: 20px;
+    margin: auto;
+    background-color: #eaeaea;
+    border-left: 4px solid #34495E!important;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+.bloglinks span{
+    font: 17px merriweather, serif;
+
+}
+
 
 #blogrow1 {
     clear: both;
