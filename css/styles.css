@@ -189,7 +189,7 @@ Blog page starts here
 
 .blogcard-h2-p{
     margin: auto;
-
+    margin: 0 10px 10px 10px;
 }
 
 
@@ -263,13 +263,13 @@ Blog page starts here
 
 #blogrow2 h3 {
     font-family: "avenir-regular", arial, sans-serif;
-    margin: 0 0 0 17px;
+
 }
 
 
 #blogrow2 p {
     font-family: "avenir-regular", arial, sans-serif;
-    margin: 0 0 0 17px;
+
     color: #737373;
     font-size: 15px;
     line-height: 20px;
