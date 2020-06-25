@@ -171,23 +171,21 @@ Blog page starts here
 }
 
 
-
-.bloglinks{
+.bloglinks {
 
     margin: auto;
     background-color: #eaeaea;
-    border-left: 4px solid #34495E!important;
+    border-left: 4px solid #34495E !important;
     padding: 24px;
     margin-bottom: 20px;
 }
 
 
-
-.bloglinks span{
+.bloglinks span {
     font: 17px merriweather, serif;
 }
 
-.blogcard-h2-p{
+.blogcard-h2-p {
     margin: auto;
     margin: 0 10px 10px 10px;
 }
@@ -694,13 +692,6 @@ th.sticky-header {
 }
 
 
-.mailmunch-forms-widget-902328 {
-    float: right;
-    width: 40%;
-    height: 300px;
-}
-
-
 #contactform select {
     width: 30%;
     height: 40px;
@@ -773,6 +764,23 @@ th.sticky-header {
 }
 
 
+.mailmunch-forms-widget-902328 {
+    float: right;
+    width: 40%;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+
+#ecwidtile {
+
+    float: right;
+    margin-bottom: 100px;
+
+
+}
+
+
 /*
 Footer starts here
 */
@@ -780,7 +788,7 @@ Footer starts here
 #footer {
     clear: both;
     height: 60px;
-    margin: 60px 0 0 0px;
+    margin: 200px 0 0 0px;
     background-color: #02213C;
     padding: 50px 10px;
 }
