@@ -684,6 +684,7 @@ th.sticky-header {
 #contactform {
     float: left;
     width: 50%;
+    margin-bottom: 300px;
 }
 
 
@@ -775,7 +776,7 @@ th.sticky-header {
 #ecwidtile {
 
     float: right;
-    margin-bottom: 100px;
+
 
 
 }
@@ -788,7 +789,7 @@ Footer starts here
 #footer {
     clear: both;
     height: 60px;
-    margin: 200px 0 0 0px;
+    margin: 60px 0 0 0px;
     background-color: #02213C;
     padding: 50px 10px;
 }
