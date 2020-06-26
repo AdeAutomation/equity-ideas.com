@@ -765,17 +765,26 @@ th.sticky-header {
 }
 
 
-.mailmunch-forms-widget-902328 {
+#newsletterebook{
     float: right;
     width: 40%;
-    height: 300px;
-    margin-bottom: 100px;
+
 }
 
 
-#ecwidtile {
+.mailmunch-forms-widget-902328 {
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    border: 2px solid red;
+}
 
-    float: right;
+
+
+#ecwidtile {
+    margin: auto;
+
+
 
 
 
