@@ -1060,7 +1060,17 @@ Responsive
         width: auto !important;
         margin: 0 !important;
     }
+
+
+    #newsletterebook{
+        float: none;
+        width: 100%;
+    }
+
+
+
 }
+
 
 
 
